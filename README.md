@@ -83,9 +83,9 @@ This catalog focuses on APIs that are practical to try for free, whether through
 | [Coinlore](https://www.coinlore.com/cryptocurrency-data-api) | Coins, tickers, markets, and global metrics | Public no-key endpoints | No | [Docs](https://www.coinlore.com/cryptocurrency-data-api) |
 | [Coinlayer](https://coinlayer.com/documentation) | Crypto exchange rates and spot prices | Free developer tier with API key | `apiKey` | [Docs](https://coinlayer.com/documentation) |
 | [Brave New Coin](https://bravenewcoin.com/developers) | Institutional-style market and benchmark data | Sandbox or trial access for testing | `apiKey` | [Docs](https://bravenewcoin.com/developers) |
-| [Messari](https://docs.messari.io/introduction) | Asset profiles, metrics, and market intel | Free access exists for a limited subset | `apiKey` | [Docs](https://docs.messari.io/introduction) |
+| [CoinGlass API](https://docs.coinglass.com/reference/getting-started-with-your-api) | Derivatives, liquidations, open interest, and market sentiment | Free developer tier with API key | `apiKey` | [Docs](https://docs.coinglass.com/reference/getting-started-with-your-api) |
 | [Santiment](https://academy.santiment.net/sanapi/introduction/) | Market, social, on-chain, and dev metrics | Free plan exists but access is restricted | `apiKey` | [Docs](https://academy.santiment.net/sanapi/introduction/) |
-| [Coin Metrics Community API](https://docs.coinmetrics.io/api/v4) | Network metrics, prices, and reference data | Community API is free with light limits | No | [Docs](https://docs.coinmetrics.io/api/v4) |
+| [Chainlink Data Feeds](https://dev.chain.link/) | Oracle price feeds and on-chain market data | Public docs and free developer resources | No | [Docs](https://dev.chain.link/) |
 
 ### Exchange & Trading
 | API | What It Is Good For | Free Plan | Auth | Docs |

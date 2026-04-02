@@ -3,6 +3,13 @@ import { readFile } from "node:fs/promises";
 const SUCCESS_STATUS_CODES = new Set([200, 201, 202, 204, 301, 302, 303, 307, 308, 401, 403, 405, 429]);
 const REQUEST_TIMEOUT_MS = 15000;
 const MAX_CONCURRENCY = 8;
+const MAX_ATTEMPTS = 3;
+
+function sleep(milliseconds: number): Promise<void> {
+  return new Promise((resolve) => {
+    setTimeout(resolve, milliseconds);
+  });
+}
 
 function extractLinks(markdown: string): string[] {
   const matches = markdown.match(/\[[^\]]+\]\((https:\/\/[^)\s]+)\)/g) ?? [];
@@ -32,24 +39,40 @@ async function fetchWithTimeout(url: string, method: "HEAD" | "GET"): Promise<Re
 }
 
 async function validateLink(url: string): Promise<string | null> {
-  try {
-    const headResponse = await fetchWithTimeout(url, "HEAD");
+  let lastFailure: string | null = null;
 
-    if (SUCCESS_STATUS_CODES.has(headResponse.status)) {
-      return null;
+  for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt += 1) {
+    try {
+      const headResponse = await fetchWithTimeout(url, "HEAD");
+
+      if (SUCCESS_STATUS_CODES.has(headResponse.status)) {
+        return null;
+      }
+
+      const getResponse = await fetchWithTimeout(url, "GET");
+
+      if (SUCCESS_STATUS_CODES.has(getResponse.status)) {
+        return null;
+      }
+
+      lastFailure = `${url} returned ${getResponse.status}`;
+
+      if (getResponse.status < 500 || attempt === MAX_ATTEMPTS) {
+        return lastFailure;
+      }
+    } catch (error) {
+      const message = error instanceof Error ? error.message : String(error);
+      lastFailure = `${url} failed: ${message}`;
+
+      if (attempt === MAX_ATTEMPTS) {
+        return lastFailure;
+      }
     }
 
-    const getResponse = await fetchWithTimeout(url, "GET");
-
-    if (SUCCESS_STATUS_CODES.has(getResponse.status)) {
-      return null;
-    }
-
-    return `${url} returned ${getResponse.status}`;
-  } catch (error) {
-    const message = error instanceof Error ? error.message : String(error);
-    return `${url} failed: ${message}`;
+    await sleep(attempt * 500);
   }
+
+  return lastFailure;
 }
 
 async function main(): Promise<void> {

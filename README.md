@@ -1,4 +1,4 @@
-# 100 Free Crypto APIs
+# Free Crypto APIs
 
 > Free and free-tier crypto APIs for builders, traders, portfolio apps, and on-chain tools.
 
@@ -44,12 +44,12 @@ This catalog focuses on APIs that are practical to try for free, whether through
 |---|---|---|---|---|
 | [Bitquery](https://docs.bitquery.io/) | On-chain GraphQL, DEX trades, and NFT activity | Free developer access for testing, then paid scaling | `apiKey` | [Docs](https://docs.bitquery.io/) |
 | [DEX Screener](https://docs.dexscreener.com/api/reference) | DEX pairs, liquidity, token profiles, and price changes | Public API with documented rate limits | No | [Docs](https://docs.dexscreener.com/api/reference) |
-| [OpenSea](https://docs.opensea.io/reference/api-overview) | NFT collections, metadata, events, and marketplace data | Self-serve API keys; free quota is not clearly published | `apiKey` | [Docs](https://docs.opensea.io/reference/api-overview) |
+| [OpenSea](https://docs.opensea.io/reference/api-overview) | NFT collections, metadata, events, and marketplace data | Free self-serve API keys for developer access | `apiKey` | [Docs](https://docs.opensea.io/reference/api-overview) |
 
 ### Payments
 | API | What It Is Good For | Free Plan | Auth | Docs |
 |---|---|---|---|---|
-| [BlockBee](https://docs.blockbee.io/) | Crypto checkout, deposit addresses, and merchant webhooks | No setup or monthly fee; processor and network fees apply | `apiKey` | [Docs](https://docs.blockbee.io/) |
+| [BlockBee](https://docs.blockbee.io/) | Crypto checkout, deposit addresses, and merchant webhooks | Free to integrate; processor and network fees apply | `apiKey` | [Docs](https://docs.blockbee.io/) |
 | [CryptAPI](https://docs.cryptapi.io/) | Non-custodial crypto checkout and payment callbacks | No monthly fee; processor and network fees apply | No | [Docs](https://docs.cryptapi.io/) |
 | [Coinremitter](https://api.coinremitter.com/docs) | Merchant wallets, invoices, addresses, and withdrawals | Free plan with limited features and request caps | `apiKey` | [Docs](https://api.coinremitter.com/docs) |
 
@@ -64,7 +64,7 @@ This catalog focuses on APIs that are practical to try for free, whether through
 | API | What It Is Good For | Free Plan | Auth | Docs |
 |---|---|---|---|---|
 | [Santiment](https://academy.santiment.net/sanapi/introduction/) | Sentiment, social, on-chain, and developer metrics | Free plan exists but access is heavily restricted | `apiKey` | [Docs](https://academy.santiment.net/sanapi/introduction/) |
-| [Messari](https://docs.messari.io/introduction) | Asset profiles, market metrics, and research data | Unpaid access exists for a limited subset | `apiKey` | [Docs](https://docs.messari.io/introduction) |
+| [Messari](https://docs.messari.io/introduction) | Asset profiles, market metrics, and research data | Free access exists for a limited subset of endpoints | `apiKey` | [Docs](https://docs.messari.io/introduction) |
 | [Alternative.me](https://alternative.me/crypto/fear-and-greed-index/#api) | Crypto fear and greed sentiment index | Public no-key endpoint for sentiment snapshots | No | [Docs](https://alternative.me/crypto/fear-and-greed-index/#api) |
 
 ## Full Catalog
@@ -140,7 +140,7 @@ This catalog focuses on APIs that are practical to try for free, whether through
 | [Reservoir](https://nft.reservoir.tools/reference/overview) | NFT liquidity, tokens, collections, and orders | Free developer tier with API key | `apiKey` | [Docs](https://nft.reservoir.tools/reference/overview) |
 | [Rarible API](https://docs.rarible.org/reference/introduction) | NFT items, collections, orders, and activity | Free developer tier with API key | `apiKey` | [Docs](https://docs.rarible.org/reference/introduction) |
 | [Magic Eden API](https://docs.magiceden.io/reference) | NFT marketplace data, collections, and orders | Free developer access with API key | `apiKey` | [Docs](https://docs.magiceden.io/reference) |
-| [OpenSea API](https://docs.opensea.io/reference/api-overview) | NFT collections, metadata, events, and marketplace data | Self-serve API keys; free quota is not clearly published | `apiKey` | [Docs](https://docs.opensea.io/reference/api-overview) |
+| [OpenSea](https://docs.opensea.io/reference/api-overview) | NFT collections, metadata, events, and marketplace data | Free self-serve API keys for developer access | `apiKey` | [Docs](https://docs.opensea.io/reference/api-overview) |
 | [NFTScan](https://docs.nftscan.com/) | NFT assets, collections, transactions, and holders | Free developer tier with API key | `apiKey` | [Docs](https://docs.nftscan.com/) |
 | [Alchemy NFT API](https://www.alchemy.com/docs/reference/nft-api-quickstart) | NFT metadata, owners, floor prices, and sales | Free tier with monthly compute units | `apiKey` | [Docs](https://www.alchemy.com/docs/reference/nft-api-quickstart) |
 | [Moralis NFT API](https://docs.moralis.com/web3-data-api/evm/nft-api) | NFT metadata, transfers, pricing, and owners | Free developer plan with API key | `apiKey` | [Docs](https://docs.moralis.com/web3-data-api/evm/nft-api) |
@@ -150,13 +150,13 @@ This catalog focuses on APIs that are practical to try for free, whether through
 ### Payments
 | API | What It Is Good For | Free Plan | Auth | Docs |
 |---|---|---|---|---|
-| [BlockBee](https://docs.blockbee.io/) | Crypto checkout, deposit addresses, and webhooks | No setup or monthly fee; processor and network fees apply | `apiKey` | [Docs](https://docs.blockbee.io/) |
+| [BlockBee](https://docs.blockbee.io/) | Crypto checkout, deposit addresses, and webhooks | Free to integrate; processor and network fees apply | `apiKey` | [Docs](https://docs.blockbee.io/) |
 | [CryptAPI](https://docs.cryptapi.io/) | Non-custodial crypto checkout and payment callbacks | No monthly fee; processor and network fees apply | No | [Docs](https://docs.cryptapi.io/) |
 | [Coinremitter](https://api.coinremitter.com/docs) | Merchant wallets, invoices, addresses, and withdrawals | Free plan with limited features and request caps | `apiKey` | [Docs](https://api.coinremitter.com/docs) |
-| [Circle](https://developers.circle.com/w3s/api-references) | Stablecoin wallets, payouts, and payment flows | Free sandbox and developer access with API key | `apiKey` | [Docs](https://developers.circle.com/w3s/api-references) |
+| [Circle](https://developers.circle.com/api-reference) | Stablecoin wallets, payouts, and payment flows | Free sandbox and developer access with API key | `apiKey` | [Docs](https://developers.circle.com/api-reference) |
 | [Coinbase Payment Acceptance](https://docs.cdp.coinbase.com/api-reference/payment-acceptance/overview) | USDC checkout, payment links, rewards, and webhooks | Developer access with API key and sandbox-style setup | `apiKey` | [Docs](https://docs.cdp.coinbase.com/api-reference/payment-acceptance/overview) |
 | [BitPay](https://developer.bitpay.com/reference) | Invoices, exchange rates, payouts, and refunds | Free to integrate; merchant fees apply in production | `apiKey` | [Docs](https://developer.bitpay.com/reference) |
-| [NOWPayments](https://docs.nowpayments.io/) | Crypto invoices, payouts, subscriptions, and conversions | Free to integrate; processor fees apply | `apiKey` | [Docs](https://docs.nowpayments.io/) |
+| [NOWPayments](https://nowpayments.io/help/api) | Crypto invoices, payouts, subscriptions, and conversions | Free to integrate; processor fees apply | `apiKey` | [Docs](https://nowpayments.io/help/api) |
 | [CoinPayments](https://docs.coinpayments.net/) | Merchant checkout, wallets, and payment callbacks | Free to integrate; transaction fees apply | `apiKey` | [Docs](https://docs.coinpayments.net/) |
 | [BTCPay Server Greenfield API](https://docs.btcpayserver.org/CustomIntegration/) | Self-hosted Bitcoin checkout, invoices, and stores | Free and open source if you host it yourself | `apiKey` | [Docs](https://docs.btcpayserver.org/CustomIntegration/) |
 | [OpenNode](https://developers.opennode.com/reference) | Bitcoin checkout, Lightning invoices, and payouts | Sandbox available for testing | `apiKey` | [Docs](https://developers.opennode.com/reference) |
@@ -195,13 +195,13 @@ This catalog focuses on APIs that are practical to try for free, whether through
 | [Dune API](https://docs.dune.com/api-reference/overview/introduction) | Query results, dashboards, and decoded on-chain analytics | Free developer access with API key | `apiKey` | [Docs](https://docs.dune.com/api-reference/overview/introduction) |
 | [Flipside API](https://docs.flipsidecrypto.xyz/) | SQL-based blockchain analytics and query results | Free developer access with API key | `apiKey` | [Docs](https://docs.flipsidecrypto.xyz/) |
 | [Coin Metrics Community API](https://docs.coinmetrics.io/api/v4) | Network analytics, reference data, and metrics | Community API is free with light limits | No | [Docs](https://docs.coinmetrics.io/api/v4) |
-| [Messari](https://docs.messari.io/introduction) | Research, asset intel, and market dashboards | Free access exists for a limited subset | `apiKey` | [Docs](https://docs.messari.io/introduction) |
+| [Messari](https://docs.messari.io/introduction) | Research, asset intel, and market dashboards | Free access exists for a limited subset of endpoints | `apiKey` | [Docs](https://docs.messari.io/introduction) |
 | [CryptoCompare News API](https://min-api.cryptocompare.com/documentation) | News feeds, sources, and market commentary | Free developer plan with rate limits | `apiKey` | [Docs](https://min-api.cryptocompare.com/documentation) |
 
 ## Methodology
 
-This repo focuses on APIs with practical free usage, including fully free APIs, public endpoints, and paid APIs with usable free developer tiers.
+This repo focuses on APIs whose official docs clearly describe a usable free tier, free trial, free sandbox, public endpoint set, or self-hosted open-source path.
 
 ## Contributing
 
-Open a pull request with public docs, a short description, and a plain-English free-plan note.
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for submission rules and validation expectations.

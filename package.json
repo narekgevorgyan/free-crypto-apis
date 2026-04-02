@@ -1,0 +1,16 @@
+{
+  "name": "free-crypto-apis",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Validation tooling for the Free Crypto APIs catalog",
+  "scripts": {
+    "test": "node --import tsx --test",
+    "validate:readme": "tsx scripts/validate-readme.ts README.md",
+    "validate:links": "tsx scripts/validate-links.ts README.md"
+  },
+  "devDependencies": {
+    "@types/node": "^24.6.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}

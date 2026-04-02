@@ -83,7 +83,7 @@ This catalog focuses on APIs that are practical to try for free, whether through
 | [Coinlore](https://www.coinlore.com/cryptocurrency-data-api) | Coins, tickers, markets, and global metrics | Public no-key endpoints | No | [Docs](https://www.coinlore.com/cryptocurrency-data-api) |
 | [Coinlayer](https://coinlayer.com/documentation) | Crypto exchange rates and spot prices | Free developer tier with API key | `apiKey` | [Docs](https://coinlayer.com/documentation) |
 | [Brave New Coin](https://bravenewcoin.com/developers) | Institutional-style market and benchmark data | Sandbox or trial access for testing | `apiKey` | [Docs](https://bravenewcoin.com/developers) |
-| [Messari](https://docs.messari.io/docs) | Asset profiles, metrics, and market intel | Free access exists for a limited subset | `apiKey` | [Docs](https://docs.messari.io/docs) |
+| [Messari](https://docs.messari.io/introduction) | Asset profiles, metrics, and market intel | Free access exists for a limited subset | `apiKey` | [Docs](https://docs.messari.io/introduction) |
 | [Santiment](https://academy.santiment.net/sanapi/introduction/) | Market, social, on-chain, and dev metrics | Free plan exists but access is restricted | `apiKey` | [Docs](https://academy.santiment.net/sanapi/introduction/) |
 | [Coin Metrics Community API](https://docs.coinmetrics.io/api/v4) | Network metrics, prices, and reference data | Community API is free with light limits | No | [Docs](https://docs.coinmetrics.io/api/v4) |
 
@@ -120,7 +120,7 @@ This catalog focuses on APIs that are practical to try for free, whether through
 | [Blockchair](https://blockchair.com/api/docs) | Address balances, transactions, and multi-chain lookups | Free tier with public endpoints and API key options | `Mixed` | [Docs](https://blockchair.com/api/docs) |
 | [BlockCypher](https://www.blockcypher.com/dev/bitcoin/) | Bitcoin and UTXO wallet data, webhooks, and tx building | Free developer tier with API key | `apiKey` | [Docs](https://www.blockcypher.com/dev/bitcoin/) |
 | [Moralis Wallet API](https://docs.moralis.com/web3-data-api/evm/wallet-api) | Wallet balances, token transfers, and history | Free developer plan with API key | `apiKey` | [Docs](https://docs.moralis.com/web3-data-api/evm/wallet-api) |
-| [Covalent API](https://docs.covalenthq.com/docs/api/) | Multi-chain balances, portfolios, and token holders | Free tier with API key and usage caps | `apiKey` | [Docs](https://docs.covalenthq.com/docs/api/) |
+| [Covalent API](https://goldrush.dev/docs/) | Multi-chain balances, portfolios, and token holders | Free tier with API key and usage caps | `apiKey` | [Docs](https://goldrush.dev/docs/) |
 | [Alchemy Token API](https://www.alchemy.com/docs/reference/token-api-quickstart) | Token balances, metadata, and transfer history | Free tier with monthly compute units | `apiKey` | [Docs](https://www.alchemy.com/docs/reference/token-api-quickstart) |
 | [DeBank Open API](https://docs.cloud.debank.com/en/readme) | Wallet portfolios, protocols, tokens, and NFTs | Free developer access with API key | `apiKey` | [Docs](https://docs.cloud.debank.com/en/readme) |
 | [OKLink Explorer API](https://www.oklink.com/docs/en/) | Address balances, transactions, and token holdings | Free plan with API key and daily limits | `apiKey` | [Docs](https://www.oklink.com/docs/en/) |
@@ -195,7 +195,7 @@ This catalog focuses on APIs that are practical to try for free, whether through
 | [Dune API](https://docs.dune.com/api-reference/overview/introduction) | Query results, dashboards, and decoded on-chain analytics | Free developer access with API key | `apiKey` | [Docs](https://docs.dune.com/api-reference/overview/introduction) |
 | [Flipside API](https://docs.flipsidecrypto.xyz/) | SQL-based blockchain analytics and query results | Free developer access with API key | `apiKey` | [Docs](https://docs.flipsidecrypto.xyz/) |
 | [Coin Metrics Community API](https://docs.coinmetrics.io/api/v4) | Network analytics, reference data, and metrics | Community API is free with light limits | No | [Docs](https://docs.coinmetrics.io/api/v4) |
-| [Messari](https://docs.messari.io/docs) | Research, asset intel, and market dashboards | Free access exists for a limited subset | `apiKey` | [Docs](https://docs.messari.io/docs) |
+| [Messari](https://docs.messari.io/introduction) | Research, asset intel, and market dashboards | Free access exists for a limited subset | `apiKey` | [Docs](https://docs.messari.io/introduction) |
 | [CryptoCompare News API](https://min-api.cryptocompare.com/documentation) | News feeds, sources, and market commentary | Free developer plan with rate limits | `apiKey` | [Docs](https://min-api.cryptocompare.com/documentation) |
 
 ## Methodology

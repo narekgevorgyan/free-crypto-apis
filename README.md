@@ -24,7 +24,6 @@ This catalog focuses on APIs that are practical to try for free, whether through
 |---|---|---|---|---|
 | [CoinGecko](https://docs.coingecko.com/) | Prices, exchanges, trends, and market history | Free demo/API-key plan for low-volume use | `apiKey` | [Docs](https://docs.coingecko.com/) |
 | [Coinpaprika](https://docs.coinpaprika.com/) | Tickers, exchanges, events, and historical market data | Free quickstart plan on the public API | No | [Docs](https://docs.coinpaprika.com/) |
-| [CoinCap](https://pro.coincap.io/api-docs) | Real-time prices, assets, and history | Free demo plan with limited monthly credits | No | [Docs](https://pro.coincap.io/api-docs) |
 
 ### Exchange & Trading
 | API | What It Is Good For | Free Plan | Auth | Docs |

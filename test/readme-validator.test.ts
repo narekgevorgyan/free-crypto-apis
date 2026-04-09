@@ -81,7 +81,7 @@ test("validateReadme accepts a valid README structure", () => {
   assert.deepEqual(issues, []);
 });
 
-test("validateReadme rejects duplicate providers in the categorized list", () => {
+test("validateReadme rejects duplicate providers in the same category", () => {
   const duplicated = validReadme.replace(
     "## API Categories\n\n### Market Data\n| API | What It Is Good For | Free Plan | Auth | Docs |\n|---|---|---|---|---|\n| [Alpha](https://alpha.test/docs) | Prices and market snapshots | Free tier with API key | `apiKey` | [Docs](https://alpha.test/docs) |",
     "## API Categories\n\n### Market Data\n| API | What It Is Good For | Free Plan | Auth | Docs |\n|---|---|---|---|---|\n| [Alpha](https://alpha.test/docs) | Prices and market snapshots | Free tier with API key | `apiKey` | [Docs](https://alpha.test/docs) |\n| [Alpha](https://alpha.test/docs) | Backup listing for test purposes | Free tier with API key | `apiKey` | [Docs](https://alpha.test/docs) |",
@@ -89,7 +89,18 @@ test("validateReadme rejects duplicate providers in the categorized list", () =>
 
   const issues = validateReadme(duplicated);
 
-  assert.ok(issues.some((issue) => issue.includes("Duplicate API in categories list: Alpha")));
+  assert.ok(issues.some((issue) => issue.includes("Duplicate API in category Market Data: Alpha")));
+});
+
+test("validateReadme allows the same API in multiple categories", () => {
+  const crossListed = validReadme.replace(
+    "| [Alpha](https://alpha.test/docs) | Prices and market snapshots | Free tier with API key | `apiKey` | [Docs](https://alpha.test/docs) |",
+    "| [Alpha](https://alpha.test/docs) | Prices and market snapshots | Free tier with API key | `apiKey` | [Docs](https://alpha.test/docs) |\n| [CoinStats](https://coinstats.test/docs) | Market prices and charts | Free plan with monthly credits | `apiKey` | [Docs](https://coinstats.test/docs) |",
+  );
+
+  const issues = validateReadme(crossListed);
+
+  assert.ok(!issues.some((issue) => issue.includes("Duplicate API")));
 });
 
 test("validateReadme rejects a featured section", () => {

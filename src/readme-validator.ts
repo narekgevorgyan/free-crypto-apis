@@ -107,14 +107,14 @@ export function validateReadme(readme: string): string[] {
     }
   }
 
-  const catalogNames = new Set<string>();
-
   for (const category of parsed.catalog.categories) {
+    const categoryNames = new Set<string>();
+
     for (const row of category.rows) {
-      if (catalogNames.has(row.apiName)) {
-        issues.push(`Duplicate API in categories list: ${row.apiName}`);
+      if (categoryNames.has(row.apiName)) {
+        issues.push(`Duplicate API in category ${category.name}: ${row.apiName}`);
       } else {
-        catalogNames.add(row.apiName);
+        categoryNames.add(row.apiName);
       }
     }
   }

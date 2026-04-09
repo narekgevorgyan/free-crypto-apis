@@ -34,6 +34,7 @@ This catalog focuses on APIs that are practical to try for free, whether through
 | [CoinMarketCap](https://coinmarketcap.com/api/documentation/v1/) | Listings, quotes, metadata, and market movers | Free developer tier with API key | `apiKey` | [Docs](https://coinmarketcap.com/api/documentation/v1/) |
 | [Coinpaprika](https://docs.coinpaprika.com/) | Tickers, exchanges, events, and asset history | Free quickstart plan on the public API | No | [Docs](https://docs.coinpaprika.com/) |
 | [Coinranking](https://developers.coinranking.com/api/documentation) | Coins, prices, histories, and rankings | Free developer tier with API key | `apiKey` | [Docs](https://developers.coinranking.com/api/documentation) |
+| [CoinStats](https://coinstats.app/api-docs/) | Coin prices, charts, market caps, and movers | Free API plan with monthly credits and API key | `apiKey` | [Docs](https://coinstats.app/api-docs/) |
 | [CryptoCompare](https://min-api.cryptocompare.com/documentation) | Price, volume, and aggregate market feeds | Free developer plan with rate limits | `apiKey` | [Docs](https://min-api.cryptocompare.com/documentation) |
 | [Santiment](https://academy.santiment.net/sanapi/introduction/) | Market, social, on-chain, and dev metrics | Free plan exists but access is restricted | `apiKey` | [Docs](https://academy.santiment.net/sanapi/introduction/) |
 
@@ -85,6 +86,7 @@ This catalog focuses on APIs that are practical to try for free, whether through
 | [1inch API](https://business.1inch.com/portal/documentation/apis) | DEX aggregation, swaps, and token routing | Free developer tier with API key | `apiKey` | [Docs](https://business.1inch.com/portal/documentation/apis) |
 | [Alchemy NFT API](https://www.alchemy.com/docs/reference/nft-api-quickstart) | NFT metadata, owners, floor prices, and sales | Free tier with monthly compute units | `apiKey` | [Docs](https://www.alchemy.com/docs/reference/nft-api-quickstart) |
 | [Bitquery](https://docs.bitquery.io/) | On-chain GraphQL, DEX trades, and NFT activity | Free developer access for testing, then paid scaling | `apiKey` | [Docs](https://docs.bitquery.io/) |
+| [CoinStats](https://coinstats.app/api-docs/) | DeFi positions, NFT holdings, collections, and wallet-linked assets | Free API plan with monthly credits and API key | `apiKey` | [Docs](https://coinstats.app/api-docs/) |
 | [DefiLlama API](https://api-docs.defillama.com/) | Protocols, TVL, yields, stables, and bridges | Public no-key endpoints | No | [Docs](https://api-docs.defillama.com/) |
 | [DEX Screener](https://docs.dexscreener.com/api/reference) | DEX pairs, liquidity, token profiles, and price moves | Public API with documented rate limits | No | [Docs](https://docs.dexscreener.com/api/reference) |
 | [LI.FI API](https://docs.li.fi/api-reference/introduction) | Cross-chain swaps, bridges, and route discovery | Public API with documented rate limits | No | [Docs](https://docs.li.fi/api-reference/introduction) |

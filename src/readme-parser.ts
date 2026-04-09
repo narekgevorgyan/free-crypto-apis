@@ -23,10 +23,7 @@ export type CatalogCategory = {
 export type ParsedReadme = {
   title: string;
   sections: Set<string>;
-  featured: {
-    categories: CatalogCategory[];
-  };
-  fullCatalog: {
+  catalog: {
     categories: CatalogCategory[];
   };
 };
@@ -116,11 +113,8 @@ export function parseReadme(readme: string): ParsedReadme {
   return {
     title: titleMatch?.[1]?.trim() ?? "",
     sections: extractSections(readme),
-    featured: {
-      categories: parseCategories(extractSectionContent(readme, "Featured Free APIs", "Full Catalog")),
-    },
-    fullCatalog: {
-      categories: parseCategories(extractSectionContent(readme, "Full Catalog", "Methodology")),
+    catalog: {
+      categories: parseCategories(extractSectionContent(readme, "API Categories", "Methodology")),
     },
   };
 }

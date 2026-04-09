@@ -28,7 +28,7 @@ Each row uses this format:
 
 - Use the API's official documentation or developer portal, not blog posts, review sites, or mirrors.
 - The `Free Plan` column must explain how the free access works in plain English.
-- Keep the API name identical anywhere it appears, including when an API is listed in both `Featured Free APIs` and `Full Catalog`.
+- Keep API names consistent and do not add duplicate providers anywhere in the categorized list.
 - Put the API in the single category that best matches its primary use case.
 - Use one API addition or one focused cleanup per pull request.
 - Search the README first so you do not add a duplicate provider.
@@ -50,7 +50,6 @@ Use `Mixed` when the API has free public endpoints plus authenticated or private
 
 - Keep descriptions short and specific.
 - Prefer official wording for the free-plan note, but rewrite it so humans can scan it quickly.
-- If you add an API to `Featured Free APIs`, it must also appear in `Full Catalog`.
 - Run `npm test` and `npm run validate:readme` before opening the pull request.
 - Run `npm run validate:links` when you are changing docs URLs or doing link cleanup.
 

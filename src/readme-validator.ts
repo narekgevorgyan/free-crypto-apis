@@ -2,8 +2,7 @@ import { parseReadme, REQUIRED_CATEGORIES, type ReadmeRow } from "./readme-parse
 
 const REQUIRED_SECTIONS = [
   "Quick Index",
-  "Featured Free APIs",
-  "Full Catalog",
+  "API Categories",
   "Methodology",
   "Contributing",
 ] as const;
@@ -70,43 +69,30 @@ export function validateReadme(readme: string): string[] {
     }
   }
 
-  const featuredCategoryNames = parsed.featured.categories.map((category) => category.name);
-  const fullCategoryNames = parsed.fullCatalog.categories.map((category) => category.name);
+  if (parsed.sections.has("Featured Free APIs")) {
+    issues.push("Featured Free APIs section is no longer allowed.");
+  }
+
+  const catalogCategoryNames = parsed.catalog.categories.map((category) => category.name);
 
   for (const category of REQUIRED_CATEGORIES) {
-    if (!featuredCategoryNames.includes(category)) {
-      issues.push(`Missing featured category: ${category}`);
-    }
-
-    if (!fullCategoryNames.includes(category)) {
-      issues.push(`Missing full catalog category: ${category}`);
+    if (!catalogCategoryNames.includes(category)) {
+      issues.push(`Missing category: ${category}`);
     }
   }
 
-  for (const category of parsed.featured.categories) {
+  for (const category of parsed.catalog.categories) {
     validateRows(category.rows, issues);
   }
 
-  for (const category of parsed.fullCatalog.categories) {
-    validateRows(category.rows, issues);
-  }
+  const catalogNames = new Set<string>();
 
-  const fullCatalogNames = new Set<string>();
-
-  for (const category of parsed.fullCatalog.categories) {
+  for (const category of parsed.catalog.categories) {
     for (const row of category.rows) {
-      if (fullCatalogNames.has(row.apiName)) {
-        issues.push(`Duplicate API in full catalog: ${row.apiName}`);
+      if (catalogNames.has(row.apiName)) {
+        issues.push(`Duplicate API in categories list: ${row.apiName}`);
       } else {
-        fullCatalogNames.add(row.apiName);
-      }
-    }
-  }
-
-  for (const category of parsed.featured.categories) {
-    for (const row of category.rows) {
-      if (!fullCatalogNames.has(row.apiName)) {
-        issues.push(`Featured API missing from full catalog: ${row.apiName}`);
+        catalogNames.add(row.apiName);
       }
     }
   }

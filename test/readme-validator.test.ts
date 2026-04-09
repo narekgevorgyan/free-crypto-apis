@@ -81,7 +81,7 @@ test("validateReadme accepts a valid README structure", () => {
   assert.deepEqual(issues, []);
 });
 
-test("validateReadme rejects duplicate providers in the full catalog", () => {
+test("validateReadme rejects duplicate providers in the categorized list", () => {
   const duplicated = validReadme.replace(
     "## API Categories\n\n### Market Data\n| API | What It Is Good For | Free Plan | Auth | Docs |\n|---|---|---|---|---|\n| [Alpha](https://alpha.test/docs) | Prices and market snapshots | Free tier with API key | `apiKey` | [Docs](https://alpha.test/docs) |",
     "## API Categories\n\n### Market Data\n| API | What It Is Good For | Free Plan | Auth | Docs |\n|---|---|---|---|---|\n| [Alpha](https://alpha.test/docs) | Prices and market snapshots | Free tier with API key | `apiKey` | [Docs](https://alpha.test/docs) |\n| [Alpha](https://alpha.test/docs) | Backup listing for test purposes | Free tier with API key | `apiKey` | [Docs](https://alpha.test/docs) |",
@@ -123,4 +123,19 @@ test("validateReadme rejects invalid auth values", () => {
   const issues = validateReadme(invalidAuth);
 
   assert.ok(issues.some((issue) => issue.includes("Invalid Auth value `Token` for API: Foxtrot Node")));
+});
+
+test("validateReadme rejects categories that are not alphabetical", () => {
+  const unsorted = validReadme.replace(
+    "### Payments\n| API | What It Is Good For | Free Plan | Auth | Docs |\n|---|---|---|---|---|\n| [Echo Pay](https://echo.test/docs) | Crypto checkout | Free sandbox for testing | `apiKey` | [Docs](https://echo.test/docs) |",
+    "### Payments\n| API | What It Is Good For | Free Plan | Auth | Docs |\n|---|---|---|---|---|\n| [Zulu Pay](https://zulu.test/docs) | Crypto checkout | Free sandbox for testing | `apiKey` | [Docs](https://zulu.test/docs) |\n| [Echo Pay](https://echo.test/docs) | Crypto checkout | Free sandbox for testing | `apiKey` | [Docs](https://echo.test/docs) |",
+  );
+
+  const issues = validateReadme(unsorted);
+
+  assert.ok(
+    issues.some((issue) =>
+      issue.includes("Category must be alphabetical: Payments has `Zulu Pay` before `Echo Pay`"),
+    ),
+  );
 });

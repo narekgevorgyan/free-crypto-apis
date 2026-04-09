@@ -29,6 +29,7 @@ Each row uses this format:
 - Use the API's official documentation or developer portal, not blog posts, review sites, or mirrors.
 - The `Free Plan` column must explain how the free access works in plain English.
 - Keep API names consistent and do not add duplicate providers anywhere in the categorized list.
+- Keep APIs in alphabetical order within each category.
 - Put the API in the single category that best matches its primary use case.
 - Use one API addition or one focused cleanup per pull request.
 - Search the README first so you do not add a duplicate provider.

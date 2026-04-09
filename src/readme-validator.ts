@@ -27,6 +27,13 @@ function hasMarkdownHttpsLink(value: string): boolean {
   return /\[[^\]]+\]\(https:\/\/[^)]+\)/.test(value);
 }
 
+function compareApiNames(left: string, right: string): number {
+  return left.localeCompare(right, undefined, {
+    numeric: true,
+    sensitivity: "base",
+  });
+}
+
 function validateRows(rows: ReadmeRow[], issues: string[]): void {
   for (const row of rows) {
     const [apiCell, description, freePlan, auth, docsCell] = row.columns;
@@ -83,6 +90,21 @@ export function validateReadme(readme: string): string[] {
 
   for (const category of parsed.catalog.categories) {
     validateRows(category.rows, issues);
+
+    for (let index = 1; index < category.rows.length; index += 1) {
+      const previous = category.rows[index - 1];
+      const current = category.rows[index];
+
+      if (!previous || !current) {
+        continue;
+      }
+
+      if (compareApiNames(previous.apiName, current.apiName) > 0) {
+        issues.push(
+          `Category must be alphabetical: ${category.name} has \`${previous.apiName}\` before \`${current.apiName}\``,
+        );
+      }
+    }
   }
 
   const catalogNames = new Set<string>();

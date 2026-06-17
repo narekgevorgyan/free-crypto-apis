@@ -29,7 +29,6 @@ This catalog focuses on APIs that are practical to try for free, whether through
 | [CoinGecko](https://docs.coingecko.com/) | Prices, markets, exchanges, and historical charts | Free demo/API-key plan for low-volume use | `apiKey` | [Docs](https://docs.coingecko.com/) |
 | [CoinGlass API](https://docs.coinglass.com/reference/getting-started-with-your-api) | Derivatives, liquidations, open interest, and market sentiment | Free developer tier with API key | `apiKey` | [Docs](https://docs.coinglass.com/reference/getting-started-with-your-api) |
 | [Coinlayer](https://coinlayer.com/documentation) | Crypto exchange rates and spot prices | Free developer tier with API key | `apiKey` | [Docs](https://coinlayer.com/documentation) |
-| [Coinlib](https://coinlib.io/apidocs) | Coin prices, markets, and global stats | Free plan with API key and limits | `apiKey` | [Docs](https://coinlib.io/apidocs) |
 | [Coinlore](https://www.coinlore.com/cryptocurrency-data-api) | Coins, tickers, markets, and global metrics | Public no-key endpoints | No | [Docs](https://www.coinlore.com/cryptocurrency-data-api) |
 | [CoinMarketCap](https://coinmarketcap.com/api/documentation/v1/) | Listings, quotes, metadata, and market movers | Free developer tier with API key | `apiKey` | [Docs](https://coinmarketcap.com/api/documentation/v1/) |
 | [Coinpaprika](https://docs.coinpaprika.com/) | Tickers, exchanges, events, and asset history | Free quickstart plan on the public API | No | [Docs](https://docs.coinpaprika.com/) |
@@ -56,7 +55,7 @@ This catalog focuses on APIs that are practical to try for free, whether through
 | [dYdX API](https://docs.dydx.xyz/) | Perpetual trading, market data, and account state | Public market data; trading needs signed requests | `Mixed` | [Docs](https://docs.dydx.xyz/) |
 | [Gate.io API v4](https://www.gate.io/docs/developers/apiv4/en/) | Spot, margin, futures, and account automation | Public market data; private routes need keys | `Mixed` | [Docs](https://www.gate.io/docs/developers/apiv4/en/) |
 | [Gemini API](https://docs.gemini.com/rest-api/) | Market data, orders, and account management | Public market data; private routes need keys | `Mixed` | [Docs](https://docs.gemini.com/rest-api/) |
-| [Kraken API](https://docs.kraken.com/api/docs/category/rest-api/market-data/) | Spot market data, OHLC, and orders | Public market data; private routes need account keys | `Mixed` | [Docs](https://docs.kraken.com/api/docs/category/rest-api/market-data/) |
+| [Kraken API](https://docs.kraken.com/api/) | Spot market data, OHLC, and orders | Public market data; private routes need account keys | `Mixed` | [Docs](https://docs.kraken.com/api/) |
 | [KuCoin API](https://www.kucoin.com/docs-new) | Spot and futures trading with public feeds | Public market data; private routes need keys | `Mixed` | [Docs](https://www.kucoin.com/docs-new) |
 | [MEXC Spot API](https://mexcdevelop.github.io/apidocs/spot_v3_en/) | Spot market data and order automation | Public market data; trading needs API keys | `Mixed` | [Docs](https://mexcdevelop.github.io/apidocs/spot_v3_en/) |
 | [OKX API](https://www.okx.com/docs-v5/en/) | Spot, futures, funding, and account actions | Public market data; private routes need keys | `Mixed` | [Docs](https://www.okx.com/docs-v5/en/) |

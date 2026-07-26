@@ -139,6 +139,7 @@ This catalog focuses on APIs that are practical to try for free, whether through
 | API | What It Is Good For | Free Plan | Auth | Docs |
 |---|---|---|---|---|
 | [Alternative.me](https://alternative.me/crypto/fear-and-greed-index/#api) | Crypto fear and greed sentiment index | Public no-key endpoint for sentiment snapshots | No | [Docs](https://alternative.me/crypto/fear-and-greed-index/#api) |
+| [Chopper Fear & Greed Index](https://qiaobax.com/en/tools/fear-greed-index/) | Independent crypto fear and greed index from momentum, trend, volatility and volume | Public no-key endpoint, CORS enabled, hourly updates | No | [Docs](https://qiaobax.com/en/tools/fear-greed-index/) |
 | [Coin Metrics Community API](https://docs.coinmetrics.io/api/v4) | Network analytics, reference data, and metrics | Community API is free with light limits | No | [Docs](https://docs.coinmetrics.io/api/v4) |
 | [Coindar](https://coindar.org/en/api) | Project events, listings, and timeline data | Free developer plan with API key | `apiKey` | [Docs](https://coindar.org/en/api) |
 | [CoinMarketCal](https://coinmarketcal.com/api) | Crypto events, launches, and calendar data | Free developer tier with API key | `apiKey` | [Docs](https://coinmarketcal.com/api) |

@@ -127,6 +127,7 @@ This catalog focuses on APIs that are practical to try for free, whether through
 | [GetBlock](https://getblock.io/docs/) | Multi-chain RPC nodes and Web3 infrastructure | Free daily requests with API key | `apiKey` | [Docs](https://getblock.io/docs/) |
 | [Helius](https://www.helius.dev/docs) | Solana RPC, webhooks, indexing, and enhanced txs | Free developer tier with API key | `apiKey` | [Docs](https://www.helius.dev/docs) |
 | [Infura](https://docs.metamask.io/services/) | Ethereum and multichain RPC, IPFS, and add-ons | Free tier with daily credits | `apiKey` | [Docs](https://docs.metamask.io/services/) |
+| [OpenChainBench](https://openchainbench.com) | Live blockchain infrastructure benchmarks: RPC latency across 22+ chains, bridge fees, execution quality, prediction market API health | Fully public, no key required, CC BY 4.0 | No | [Docs](https://openchainbench.com/api/openapi.json) |
 | [PolygonScan](https://docs.polygonscan.com/) | Polygon explorer data, tokens, and tx history | Free tier with API key and call limits | `apiKey` | [Docs](https://docs.polygonscan.com/) |
 | [QuickNode](https://www.quicknode.com/docs) | Managed RPC, Streams, and chain add-ons | Free developer tier with API key | `apiKey` | [Docs](https://www.quicknode.com/docs) |
 | [Solana JSON-RPC](https://solana.com/docs/rpc) | Solana RPC methods, blocks, and transactions | Public endpoints exist; dedicated providers scale better | No | [Docs](https://solana.com/docs/rpc) |

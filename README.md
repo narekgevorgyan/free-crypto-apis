@@ -37,6 +37,7 @@ This catalog focuses on APIs that are practical to try for free, whether through
 | [CryptoCompare](https://min-api.cryptocompare.com/documentation) | Price, volume, and aggregate market feeds | Free developer plan with rate limits | `apiKey` | [Docs](https://min-api.cryptocompare.com/documentation) |
 | [Santiment](https://academy.santiment.net/sanapi/introduction/) | Market, social, on-chain, and dev metrics | Free plan exists but access is restricted | `apiKey` | [Docs](https://academy.santiment.net/sanapi/introduction/) |
 | [Sharpe](https://www.sharpe.ai/docs/free-api) | Funding, futures, options, arbitrage, narratives, and news data | Public no-key endpoints documented for lightweight use | No | [Docs](https://www.sharpe.ai/docs/free-api) |
+| [SiftingIO](https://sifting.io/docs) | Aggregated CEX and DEX prices, OHLCV history, and live WebSocket feeds | Free plan with no card for low-volume development | `apiKey` | [Docs](https://sifting.io/docs) |
 
 ### Exchange & Trading
 | API | What It Is Good For | Free Plan | Auth | Docs |

@@ -40,6 +40,7 @@ This catalog focuses on APIs that are practical to try for free, whether through
 | [Santiment](https://academy.santiment.net/sanapi/introduction/) | Market, social, on-chain, and dev metrics | Free plan exists but access is restricted | `apiKey` | [Docs](https://academy.santiment.net/sanapi/introduction/) |
 | [Sharpe](https://www.sharpe.ai/docs/free-api) | Funding, futures, options, arbitrage, narratives, and news data | Public no-key endpoints documented for lightweight use | No | [Docs](https://www.sharpe.ai/docs/free-api) |
 | [SiftingIO](https://sifting.io/docs) | Aggregated CEX and DEX prices, OHLCV history, and live WebSocket feeds | Free plan with no card for low-volume development | `apiKey` | [Docs](https://sifting.io/docs) |
+| [SnowSignals TrendVane](https://snowsignals.io) | Multi-timeframe market-phase (regime) classification for crypto pairs | Phase metadata and historical resolution stats are public; live phase reads are pay-per-call with a funded account | `Mixed` | [Docs](https://snowsignals.io/v1/openapi.json) |
 
 ### Exchange & Trading
 | API | What It Is Good For | Free Plan | Auth | Docs |

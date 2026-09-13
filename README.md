@@ -33,6 +33,7 @@ This catalog focuses on APIs that are practical to try for free, whether through
 | [Coinlayer](https://coinlayer.com/documentation) | Crypto exchange rates and spot prices | Free developer tier with API key | `apiKey` | [Docs](https://coinlayer.com/documentation) |
 | [Coinlore](https://www.coinlore.com/cryptocurrency-data-api) | Coins, tickers, markets, and global metrics | Public no-key endpoints | No | [Docs](https://www.coinlore.com/cryptocurrency-data-api) |
 | [CoinMarketCap](https://coinmarketcap.com/api/documentation/v1/) | Listings, quotes, metadata, and market movers | Free developer tier with API key | `apiKey` | [Docs](https://coinmarketcap.com/api/documentation/v1/) |
+| [CoinNudge](https://coinnudge.site/data) | Current market breadth, funding, and open-interest research datasets in JSON/CSV | Free account API key: 60 requests/minute shared; public downloads also available; historical releases excluded | `Mixed` | [Docs](https://coinnudge.site/data) |
 | [Coinpaprika](https://docs.coinpaprika.com/) | Tickers, exchanges, events, and asset history | Free quickstart plan on the public API | No | [Docs](https://docs.coinpaprika.com/) |
 | [Coinranking](https://developers.coinranking.com/api/documentation) | Coins, prices, histories, and rankings | Free developer tier with API key | `apiKey` | [Docs](https://developers.coinranking.com/api/documentation) |
 | [CoinStats](https://coinstats.app/api/) | Coin prices, charts, market caps, and movers | Free API plan with monthly credits and API key | `apiKey` | [Docs](https://coinstats.app/api-docs/) |

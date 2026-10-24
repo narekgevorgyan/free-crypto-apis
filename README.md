@@ -125,6 +125,7 @@ This catalog focuses on APIs that are practical to try for free, whether through
 | [Arbiscan](https://docs.arbiscan.io/) | Arbitrum explorer data, traces, and contracts | Free tier with API key and call limits | `apiKey` | [Docs](https://docs.arbiscan.io/) |
 | [BaseScan](https://docs.basescan.org/) | Base explorer data, contracts, and logs | Free tier with API key and call limits | `apiKey` | [Docs](https://docs.basescan.org/) |
 | [Blockfrost](https://blockfrost.io/) | Cardano chain data, tokens, metadata, and NFTs | Free tier available; paid as request volume grows | `apiKey` | [Docs](https://blockfrost.io/) |
+| [BlockVectra Data API](https://docs.blockvectra.com/en/api/data/?ref=free-crypto-apis) | Indexed EVM transactions, address transfers, token balances, and dataset freshness | [Free allowance](https://blockvectra.com/en/pricing/#free) with an API key; metered in compute units | `apiKey` | [Docs](https://docs.blockvectra.com/en/api/data/?ref=free-crypto-apis) |
 | [BscScan](https://docs.bscscan.com/) | BNB Chain explorer data, logs, and contracts | Free tier with API key and call limits | `apiKey` | [Docs](https://docs.bscscan.com/) |
 | [Chainbase](https://docs.chainbase.com/) | Indexed blockchain data, RPC, and webhooks | Free developer tier with API key | `apiKey` | [Docs](https://docs.chainbase.com/) |
 | [Etherscan](https://docs.etherscan.io/introduction) | Explorer, balances, logs, contracts, and gas data | Free tier with rate and daily call limits | `apiKey` | [Docs](https://docs.etherscan.io/introduction) |

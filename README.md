@@ -89,6 +89,7 @@ This catalog focuses on APIs that are practical to try for free, whether through
 | [0x API](https://0x.org/docs/api) | DEX swaps, prices, and quote routing | Public no-key endpoints for core quotes | No | [Docs](https://0x.org/docs/api) |
 | [1inch API](https://business.1inch.com/portal/documentation/apis) | DEX aggregation, swaps, and token routing | Free developer tier with API key | `apiKey` | [Docs](https://business.1inch.com/portal/documentation/apis) |
 | [Alchemy NFT API](https://www.alchemy.com/docs/reference/nft-api-quickstart) | NFT metadata, owners, floor prices, and sales | Free tier with monthly compute units | `apiKey` | [Docs](https://www.alchemy.com/docs/reference/nft-api-quickstart) |
+| [BaniPool API](https://banipool.com/docs/api) | DEX liquidity pools across 9 EVM networks and Solana: TVL, volume and fee APR | Public no-key read endpoints with per-IP rate limits; API keys for higher limits | `Mixed` | [Docs](https://banipool.com/docs/api) |
 | [Bitquery](https://docs.bitquery.io/) | On-chain GraphQL, DEX trades, and NFT activity | Free developer access for testing, then paid scaling | `apiKey` | [Docs](https://docs.bitquery.io/) |
 | [CoinStats](https://coinstats.app/api/) | DeFi positions, NFT holdings, collections, and wallet-linked assets | Free API plan with monthly credits and API key | `apiKey` | [Docs](https://coinstats.app/api-docs/) |
 | [DefiLlama API](https://api-docs.defillama.com/) | Protocols, TVL, yields, stables, and bridges | Public no-key endpoints | No | [Docs](https://api-docs.defillama.com/) |
